@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+/* eslint-disable indent */
+/* eslint-disable eol-last */
+// import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render( <
-    App / >
-);
+const root = ReactDOM.createRoot(document.getElementById('root'))
+const appDev = < App / >
+    root.render(appDev)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
